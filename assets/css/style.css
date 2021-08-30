@@ -26,6 +26,14 @@ background: linear-gradient(to right,#870000, #29120a); /* W3C, IE 10+/ Edge, Fi
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-top: 10px;
 }
+#span-discount{
+    font-size: 30px;
+    color: pink;
+    
+}
+.cut-text{
+    text-decoration: line-through;
+}
 .dropdown-item{
  
  color: gold; 
@@ -33,6 +41,18 @@ background: linear-gradient(to right,#870000, #29120a); /* W3C, IE 10+/ Edge, Fi
 }
 .dropdown-menu{
     background-color: rgb(153, 0, 0);
+}
+#buy{
+    background-color: gold;
+    border-radius: 4px;
+    font-size: 25px;
+}
+#price{
+    font-size: 30px;
+    color: rgb(153, 7, 7);
+    border: 1px solid gold;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .center {

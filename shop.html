@@ -92,29 +92,8 @@
                   <li><a class="dropdown-item" href="#armuri">Armuri</a></li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="color-white"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Obiecte noi
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="color-white">
-                  <li><a class="dropdown-item" href="#">Evidentiate</a></li>
-                  <li><a class="dropdown-item" href="#">Populare</a></li>
-                </ul>
-              </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" id="color-white"
-                  >Obiecte populare</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" id="color-white"
+                <a class="nav-link" href="discount_items.html" id="color-white"
                   >Obiecte cu reducere</a
                 >
               </li>
@@ -129,7 +108,8 @@
               <span id="money-bani">0 Bani</span>
             </span>
             <span class="me-3" id="span-money">
-              <img src="assets/img/euro.png" width="40px" /> 132 Euro
+              <img src="assets/img/euro.png" width="40px" /> 
+              <span id="money-euro">0 Euro</span>
             </span>
             <form class="d-flex">
            
@@ -166,9 +146,10 @@
                         <h5 class="card-title">Sabie Inscriptionata +9</h5>
                         <p class="card-text"><small class="text-muted">Armă de nivel 105 pentru războinic</small></p>
                         <p class="card-text">Cu această armă vei cuceri regatul și vei înfrânge răul care a împânzit satul.</p>
-                        <span id="price">10 BANI</span> 
+                        <span id="price">100 BANI</span> 
                       </div>
-                      <div class="card-footer"><button name="Cumpara" id="buy" value=10 >Cumpara!</button></div>
+                      <div class="card-footer">
+                        <button name="Cumpara" id="buy" value="100" >Cumpara!</button></div>
                     </div>
                 </div>
             </div>
@@ -184,7 +165,7 @@
                         <p class="card-text">Folosind această sabie vei avea ocazia sa ajungi in topul jucatorilor.</p>
                         <span id="price" value=20 >20 BANI</span> 
                       </div>
-                      <div class="card-footer"><button name="Cumpara" id="buy" value=20 >Cumpara!</button></div>
+                      <div class="card-footer"><button name="Cumpara" id="buy" value="20">Cumpara!</button></div>
                     </div>
                 </div>
             </div>
@@ -198,7 +179,10 @@
                         <h5 class="card-title">Sabie Dragon Negru +9</h5>
                         <p class="card-text"><small class="text-muted">Sabie de nivel 105 pentru sura </small></p>
                         <p>Arma zeului Dragon care n-a mai fost văzută de nici un ochi uman.</p>
+                        <span id="price">100 BANI</span> 
                       </div>
+                      <div class="card-footer">
+                        <button name="Cumpara" id="buy" value="100" >Cumpara!</button></div>
                     </div>
                   </div>
             </div>
@@ -206,7 +190,7 @@
         </div>
         <h1 class="item-title" id="arme2maini">Arme 2 maini</h1>
         <!-- ROW 2 -->
-        <!-- <div class="shop-row">
+        <div class="shop-row">
             <div class="card-group">
                 <div class="card me-3 rounded">
                     <div class="row p-1">
@@ -218,7 +202,11 @@
                             <h5 class="card-title">Lama Zeului Dragon+9</h5>
                             <p class="card-text"><small class="text-muted">Arma cu 2 mâini de nivel 75 războinic</small></p>
                             <p class="card-text">Lama a fost făcută de fierarul mistic, din dintele Zeului Dragon după ce acesta a fost învins.</p>
+                            
+                            <span id="price">80 BANI</span> 
                           </div>
+                          <div class="card-footer">
+                            <button name="Cumpara" id="buy" value="80" >Cumpara!</button></div>
                         </div>
                     </div>
                 </div>
@@ -232,7 +220,10 @@
                             <h5 class="card-title">Sabie Grozavă Şarpe+9</h5>
                             <p class="card-text"><small class="text-muted">Arma cu 2 mâini de nivel 105 războinic</small></p>
                             <p class="card-text">Nu se cunoaște originea sau proprietarul acestei arme. Sunt legende care indică că ar fi prima armă a Zeului Naturii.</p>
+                            <span id="price">200 BANI</span> 
                           </div>
+                          <div class="card-footer">
+                            <button name="Cumpara" id="buy" value="200" >Cumpara!</button></div>
                         </div>
                     </div>
                 </div>
@@ -246,15 +237,18 @@
                             <h5 class="card-title"> Lama dragon negru+9</h5>
                             <p class="card-text"><small class="text-muted">Arma de nivel 105 pentru razboinic</small></p>
                             <p class="card-text">Lance feroce care îți mărește șansele de reușită în luptă!</p>
+                            <span id="price">260 BANI</span> 
                           </div>
+                          <div class="card-footer">
+                            <button name="Cumpara" id="buy" value="260" >Cumpara!</button></div>
                         </div>
                       </div>
                 </div>
               </div>
             </div>
-            <h1 class="item-title" id="arcuri">Arcuri</h1> -->
+            <h1 class="item-title" id="arcuri">Arcuri</h1>
             <!-- ROW 3 -->
-            <!-- <div class="shop-row">
+            <div class="shop-row">
                 <div class="card-group">
                     <div class="card me-3 rounded">
                         <div class="row p-1">
@@ -266,7 +260,10 @@
                                 <h5 class="card-title">Arc Şarpe+9</h5>
                                 <p class="card-text"><small class="text-muted">Arc de nivel 105 pentru ninja</small></p>
                                 <p class="card-text">Arcul Zeului Naturii, oricine folosind acest arc va deveni invincibil!</p>
+                                <span id="price">90 BANI</span> 
                               </div>
+                              <div class="card-footer">
+                                <button name="Cumpara" id="buy" value="90" >Cumpara!</button></div>
                             </div>
                         </div>
                     </div>
@@ -280,7 +277,10 @@
                                 <h5 class="card-title">Arc Dragon Negru +9</h5>
                                 <p class="card-text"><small class="text-muted">Arc de nivel 75 pentru ninja </small></p>
                                 <p>Folosind acest arc, un ninja își poate pune in valoare adevaratele puteri!</p>
+                                <span id="price">130 BANI</span> 
                               </div>
+                              <div class="card-footer">
+                                <button name="Cumpara" id="buy" value="130" >Cumpara!</button></div>
                             </div>
                           </div>
                     </div>
@@ -294,7 +294,10 @@
                                 <h5 class="card-title">Arc Phoenix +9</h5>
                                 <p class="card-text"><small class="text-muted">Arc de nivel 90 pentru ninja</small></p>
                                 <p class="card-text">Folosind această arc, o să moștenești puterile Pheonixului.</p>
+                                <span id="price">200 BANI</span> 
                               </div>
+                              <div class="card-footer">
+                                <button name="Cumpara" id="buy" value="200" >Cumpara!</button></div>
                             </div>
                         </div>
                     </div>    
@@ -313,7 +316,10 @@
                                   <h5 class="card-title">Lama 5 Elemente +9</h5>
                                   <p class="card-text"><small class="text-muted">Arma de nivel 105 pentru ninja</small></p>
                                   <p class="card-text">Cu această lamă te vei duela fără a simți prezența inamicului.</p>
+                                  <span id="price">100 BANI</span> 
                                 </div>
+                                <div class="card-footer">
+                                  <button name="Cumpara" id="buy" value="100" >Cumpara!</button></div>
                               </div>
                           </div>
                       </div>
@@ -327,7 +333,10 @@
                                   <h5 class="card-title">Pumnal sarpe+9</h5>
                                   <p class="card-text"><small class="text-muted">Pumnal de nivel 105 pentru ninja</small></p>
                                   <p class="card-text">Arme pe care doar un adevarat ninja le poate manevra.</p>
+                                  <span id="price">150 BANI</span> 
                                 </div>
+                                <div class="card-footer">
+                                  <button name="Cumpara" id="buy" value="150" >Cumpara!</button></div>
                               </div>
                           </div>
                       </div>
@@ -341,7 +350,10 @@
                                   <h5 class="card-title">Pumnal diavol +9</h5>
                                   <p class="card-text"><small class="text-muted">Pumnal de nivel 75 pentru ninja</small></p>
                                   <p>Pumnale PVM cu care sigur vei infrunta orice mob!</p>
+                                  <span id="price">200 BANI</span> 
                                 </div>
+                                <div class="card-footer">
+                                  <button name="Cumpara" id="buy" value="200" >Cumpara!</button></div>
                               </div>
                             </div>
                       </div>
@@ -360,7 +372,10 @@
                                   <h5 class="card-title">Armura dragon+9</h5>
                                   <p class="card-text"><small class="text-muted">Armura de nivel 61 pentru razboinic</small></p>
                                   <p class="card-text">Armura de dragon îți mărește rezistemța în fața inamicului!</p>
+                                  <span id="price">290 BANI</span> 
                                 </div>
+                                <div class="card-footer">
+                                  <button name="Cumpara" id="buy" value="290" >Cumpara!</button></div>
                               </div>
                           </div>
                       </div>
@@ -374,7 +389,10 @@
                                   <h5 class="card-title">Armura de balaur+9</h5>
                                   <p class="card-text"><small class="text-muted">Armura de nivel 105 pentru razboinic </small></p>
                                   <p>Caracterul tău nu a fost niciodată mai în siguranță!</p>
-                                </div>
+                                <span id="price">200 BANI</span> 
+                      </div>
+                      <div class="card-footer">
+                        <button name="Cumpara" id="buy" value="200" >Cumpara!</button></div>
                               </div>
                             </div>
                       </div>
@@ -388,107 +406,19 @@
                                   <h5 class="card-title">Armura otel negru+9</h5>
                                   <p class="card-text"><small class="text-muted">Armura de nivel 70 pentru Războinic</small></p>
                                   <p class="card-text">Folosind această armură, ai șansa să devii invincibil în lupta corp la corp.</p>
+                                  <span id="price">300 BANI</span> 
                                 </div>
+                                <div class="card-footer">
+                                  <button name="Cumpara" id="buy" value="300" >Cumpara!</button></div>
                               </div>
                           </div>
                       </div>    
                     </div>
-                  </div> -->
+                  </div> 
 
-               <!-- ROW 4 
-                <div class="shop-row">
-                    <div class="card-group">
-                        <div class="card me-3 rounded">
-                            <div class="row p-1">
-                                <div class="col-md-6">
-                                  <iframe src="https://m2icondb.com/3d?type=ARMOR&subtype=ARMOR_BODY&value3=12&width=300&height=300" class="frame-shop" style="width: 300px; height: 300px;"></iframe>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card me-3 rounded">
-                            <div class="row p-1">
-                                <div class="col-md-6">
-                                  <iframe src="https://m2icondb.com/3d?type=ARMOR&subtype=ARMOR_BODY&value3=12&width=300&height=300" style="width: 300px; height: 300px;"></iframe>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card rounded">
-                            <div class="row p-1">
-                                <div class="col-md-6">
-                                  <iframe src="https://m2icondb.com/3d?type=ARMOR&subtype=ARMOR_BODY&value3=12&width=300&height=300" style="width: 300px; height: 300px;"></iframe>
-                                </div>
-                                <div class="col-md-6">
-                                  <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                  </div>
-                                </div>
-                              </div>
-                        </div>
-                      </div>
-                    </div>
-                    ROW 5
-                    <div class="shop-row">
-                        <div class="card-group">
-                            <div class="card me-3 rounded">
-                                <div class="row p-1">
-                                    <div class="col-md-6">
-                                      <iframe src="https://m2icondb.com/3d?type=ARMOR&subtype=ARMOR_BODY&value3=12&width=300&height=300" class="frame-shop" style="width: 300px; height: 300px;"></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                      <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card me-3 rounded">
-                                <div class="row p-1">
-                                    <div class="col-md-6">
-                                      <iframe src="https://m2icondb.com/3d?type=ARMOR&subtype=ARMOR_BODY&value3=12&width=300&height=300" style="width: 300px; height: 300px;"></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                      <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card rounded">
-                                <div class="row p-1">
-                                    <div class="col-md-6">
-                                      <iframe src="https://m2icondb.com/3d?type=ARMOR&subtype=ARMOR_BODY&value3=12&width=300&height=300" style="width: 300px; height: 300px;"></iframe>
-                                    </div>
-                                    <div class="col-md-6">
-                                      <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                                      </div>
-                                    </div>
-                                  </div>
-                            </div>
-                          </div>
-                        </div> -->
+             
+
+                    
       <!-- MODAL PAYMENT-->
       <div
         class="modal fade"
@@ -651,6 +581,15 @@
         </div>
       </div>
     </main>
+
+    <footer class="bg-transparent text-center text-lg-start">
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.1); color: gold;">
+        © Paul Andrei Turcu & Vancsa Ervin - Talenting Software - 2021
+      </div>
+      <!-- Copyright -->
+    </footer>
+
 
     <!-- MDB -->
     <script
