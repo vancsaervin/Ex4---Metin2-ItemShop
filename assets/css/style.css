@@ -1,0 +1,132 @@
+body{
+    background: #870000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #870000, #29120a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right,#870000, #29120a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#color-white{
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+#color-yellow{
+    color:rgba(255, 255, 0, 0.829);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.nav .navbar-nav li a {
+    color: white;
+}
+#span-money{
+    font-size: 15px;
+    color: gold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
+}
+.dropdown-item{
+ 
+ color: gold; 
+
+}
+.dropdown-menu{
+    background-color: rgb(153, 0, 0);
+}
+
+.center {
+    margin: auto;
+}
+
+#buy-coin {
+    background: transparent;
+    color: gold;
+}
+
+#buy-coin :hover {
+    color:white !important;
+ }
+
+ .modal-content {
+    background: #870000; 
+    color: white;
+ }
+
+
+ /* Sets the background image for the wheel */
+td.the_wheel
+{
+    background-image: url(../img/wheelBack.png);
+    background-position: center;
+    background-repeat: none;
+}
+
+/* Do some css reset on selected elements */
+h1, p
+{
+    margin: 0;
+}
+
+div.power_controls
+{
+    margin-right:70px;
+}
+
+div.html5_logo
+{
+    margin-left:70px;
+}
+
+/* Styles for the power selection controls */
+table.power
+{
+    background-color: #cccccc;
+    cursor: pointer;
+    border:1px solid #333333;
+}
+
+table.power th
+{
+    background-color: white;
+    cursor: default;
+}
+
+td.pw1
+{
+    background-color: #6fe8f0;
+}
+
+td.pw2
+{
+    background-color: #86ef6f;
+}
+
+td.pw3
+{
+    background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+    cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom
+{
+    margin-bottom: 5px;
+}
+
+.shop-row {
+    margin: 50px;
+}
+.item-title{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gold;
+    margin-left: 50px;
+    margin-top: 1%;
+    margin-bottom: -20px;
+}
